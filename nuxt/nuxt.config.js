@@ -43,6 +43,7 @@ export default {
   // DruxtJS: https://druxtjs.org
   druxt: {
     baseUrl,
+    endpoint: '/api',
     // Disable deprecated Entity fields.
     entity: { components: { fields: false }},
     // Set the default theme to render Site regions.

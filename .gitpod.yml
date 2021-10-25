@@ -3,10 +3,10 @@ image:
 
 tasks:
   - init: |
-      # Installing DDev and Drupal backend.
+      # Installing DDev and ContentaCMS backend.
       .gitpod/scripts/ddev-download-images.sh
-      .gitpod/scripts/ddev-setup.sh
-      .gitpod/scripts/drupal-setup.sh
+      .gitpod/scripts/contenta-download.sh
+      .gitpod/scripts/contenta-setup.sh
       # Installing Nuxt/Druxt frontend.
       .gitpod/scripts/nuxt-setup.sh
     command: |

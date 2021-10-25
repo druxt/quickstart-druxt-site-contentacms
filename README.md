@@ -1,11 +1,11 @@
-# DruxtSite quickstart - Drupal
+# DruxtSite quickstart - ContentaCMS
 
-> One click, Fully Decoupled Drupal Site starter-kit with Druxt.
+> One click, Fully Decoupled ContentaCMS Site starter-kit with Druxt.
 
 DruxtSite connects Drupal to Nuxt via JSON:API to provide a framework for building a Fully Decoupled site.
 
 This repostory provides a quickstart installation of:
-- Drupal 9
+- ContentaCMS
 - Nuxt 2
 - DruxtSite
 
@@ -14,7 +14,7 @@ This repostory provides a quickstart installation of:
 
 Try it before you fork it:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/druxt/quickstart-druxt-site)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/druxt/quickstart-druxt-site-contentacms)
 
 
 ## Getting started
@@ -23,7 +23,7 @@ Try it before you fork it:
 
 2. Once the repository has been generated, open it in Gitpod by appending `https://gitpod.io#` to the GitHub url.
 
-   Example: `https://gitpod.io#github.com/druxt/quickstart-druxt-site`
+   Example: `https://gitpod.io#github.com/druxt/quickstart-druxt-site-contentacms`
 
    _Note:_ If this is your first time using Gitpod, you can signup for a free plan with your Github account.
 
@@ -34,7 +34,7 @@ Try it before you fork it:
 
 ## How to use it
 
-Your environment contains a pre-install, pre-configured and running instance of Drupal and Nuxt, with the DruxtSite module enabled.
+Your environment contains a pre-install, pre-configured and running instance of ContentaCMS and Nuxt, with the DruxtSite module enabled.
 
 You can access the services in your browser, via the **Remote Explorer** extension, or via the URL pattern: `https://[PORT]-[GITPOD_ID].[GITPOD_SERVER].gitpod.io`
 
@@ -45,7 +45,7 @@ You can access the services in your browser, via the **Remote Explorer** extensi
 | -- | -- |
 | `3000` | Nuxt.js |
 | `3003` | Storybook |
-| `8080` | Drupal |
+| `8080` | ContentaCMS |
 
 
 ## Tools
@@ -71,4 +71,4 @@ To start Storybook, navigate to the `nuxt` directory and run `npx nuxt storybook
 
 ## License
 
-[MIT](https://github.com/druxt/druxt.js/blob/develop/LICENSE)
+[MIT](https://github.com/druxt/quickstart-druxt-site-contentacms/blob/develop/LICENSE)
