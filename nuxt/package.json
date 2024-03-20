@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "3.18.3",
+    "core-js": "3.36.1",
     "druxt-site": "0.9.1",
     "nuxt": "2.15.8"
   },
